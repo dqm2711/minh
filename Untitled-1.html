@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio - Đàm Quang Minh</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 24px 16px;
+        }
+
+        .bio-card {
+            background: rgba(30, 41, 59, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 36px 24px;
+            width: 100%;
+            max-width: 420px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #38bdf8, #6366f1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+            font-size: 32px;
+            font-weight: bold;
+            color: #ffffff;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+        }
+
+        h1 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 6px;
+        }
+
+        .school {
+            font-size: 14px;
+            color: #38bdf8;
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+
+        .student-id {
+            font-size: 13px;
+            color: #94a3b8;
+            margin-bottom: 24px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: #cbd5e1;
+            margin-bottom: 12px;
+            text-align: left;
+        }
+
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+
+        .tag {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            color: #e2e8f0;
+            padding: 8px 14px;
+            border-radius: 10px;
+            font-size: 13px;
+            transition: all 0.2s ease;
+        }
+
+        .tag:hover {
+            background: rgba(56, 189, 248, 0.2);
+            border-color: #38bdf8;
+            transform: translateY(-2px);
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .link-btn {
+            display: block;
+            background: #2563eb;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+        }
+
+        .link-btn:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(37, 99, 235, 0.5);
+        }
+
+        .footer {
+            margin-top: 24px;
+            font-size: 12px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bio-card">
+        <!-- Avatar đại diện -->
+        <div class="avatar">QM</div>
+
+        <!-- Thông tin cá nhân -->
+        <h1>Đàm Quang Minh</h1>
+        <p class="school">Đại học Giao thông Vận tải</p>
+        <p class="student-id">MSV: 251210920</p>
+
+        <!-- Sở thích -->
+        <div class="section-title">Sở thích</div>
+        <div class="tags-container">
+            <span class="tag">💻 Lập trình</span>
+            <span class="tag">🚀 Tìm hiểu công nghệ</span>
+            <span class="tag">🌐 Web Development</span>
+        </div>
+
+        <!-- Liên kết cá nhân (có thể thay link tương ứng) -->
+        <div class="links-container">
+            <a href="https://github.com" target="_blank" class="link-btn">GitHub Profile</a>
+        </div>
+
+        <div class="footer">
+            © 2026 Đàm Quang Minh • UTC
+        </div>
+    </div>
+
+</body>
+</html>
